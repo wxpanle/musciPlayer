@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="14A389" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PLBackgroundImageName" representedClassName="PLBackgroundImageName" syncable="YES">
+        <attribute name="backgroundImageName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PLLocalMusicInfo" representedClassName="PLLocalMusicInfo" syncable="YES">
+        <attribute name="albumName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isLike" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isnew" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="musicDuration" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="musicHash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="musicPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="singerImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="singerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="songLyrics" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="songName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PLBackgroundImageName" positionX="-36" positionY="72" width="128" height="60"/>
+        <element name="PLLocalMusicInfo" positionX="-36" positionY="9" width="128" height="195"/>
+    </elements>
+</model>

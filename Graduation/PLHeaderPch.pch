@@ -1,0 +1,26 @@
+//
+//  PLHeaderPch.pch
+//  Graduation
+//
+//  Created by qianfeng on 16/4/28.
+//  Copyright (c) 2016年 qianfeng. All rights reserved.
+//
+
+#ifndef Graduation_PLHeaderPch_pch
+#define Graduation_PLHeaderPch_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//第三方库
+#import "CoreData+MagicalRecord.h"
+#import "PLLocalMusicInfo.h"
+#import "PLNetinterface.h"
+#import "UIImageView+WebCache.h"
+#import "PLNetMusicInfo.h"
+#import "PLHomeToolBar.h"
+
+#define PL_MUSIC_PATH NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject
+
+#define PL_SCREEN_SIZE [UIScreen mainScreen].bounds.size
+
+#endif
